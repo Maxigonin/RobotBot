@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #65DAFF;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.section-text{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+body{
+    background-color: #222222;
+}
+.navigetion{
+    float: right;
+}
+.menu{
+    padding: 10px;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.robot{
+    color: white;
+    font-size: 25px;
+}
+.robotbot{
+    width: 900px;
+    height: 300px;
+}
+.header{
+    background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    height: 80vh;
+    padding: 30px;
+}
+.header-title{
+    font-size: 100px;
+    color: #4E4E4E;
+    width: 700px;
+}
+.header-sub-title{
+    font-size: 50px;
+    color: #4E4E4E;
+}
+.header-btn{
+    padding: 30px 80px;
+    background: linear-gradient(#65DAFF, #70FFCB);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.about-card-title{
+    color: #65DAFF;
+}
+.about-card{
+    width: 22%;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.about{
+    padding: 30px 0;
+    font-size: 25px;
+}
+.games-container{
+    box-shadow:0 10px 30px rgba(0,0,0,0.7);
+    padding: 30px 7px;
+}
+.game-img{
+    height: 350px;
+    width: 49%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.game-1{
+    background-image: url(img/csgo.jpg);
+}
+.game-2{
+    background-image: url(img/dota2.jpg);
+}
+.game-3{
+    background-image: url(img/apex.jpg);
+}
+.game-content{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    color: #70FFCB;
+}
+.game-content p{
+    color: white;
+}
+.game-content hr{
+    width: 130px;
+    height: 2px;
+    background-color: #70FFCB;
+    margin: 17px 0;
+    border: none;
+}
+.discord{
+
+}
+.discord h3{
+    color: #65DAFF;
+    text-align: center;
+    font-size: 30px;
+}
+.discord hr{
+    width: 500px;
+    margin: 30px auto;
+}
+.klick{
+    background: linear-gradient(90deg, #70FFCB, #65DAFF);
+    padding: 60px 60px;
+}
+.klick a{
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+}
+.klick p{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.play{
+    text-align: center;
+    padding: 30px 0;
+}
+.klick a{
+    display: inline-block;
+    padding: 19px 45px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}

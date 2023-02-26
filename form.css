@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+form{
+    color: white;
+}
+body{
+    background-color: #222222;
+    padding: 50px 0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.form-container{
+    box-shadow:0 10px 30px rgba(0,0,0,0.7);
+    padding: 30px 7px;
+}
+.form-btn{
+    padding: 30px 80px;
+    background: linear-gradient(#65DAFF, #70FFCB);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.form-header a{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.form-header p{
+    display: inline-block;
+    background-color: #65DAFF;
+    padding: 15px;
+    width: 936px;
+    margin-left: -4px;
+    text-align: center;
+    color: white;
+}
+.name input{
+    padding: 15px;
+    border: none;
+    background-color: #222222;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+legend{
+    color: white;
+}
+.name{
+    padding: 15px;
+}
+.gender{
+    padding: 15px;
+    border: none;
+}
+.gender label{
+    margin: 15px 30px 0 10px;
+    display: inline-block;
+}
+.select option{
+    display: inline-block;
+}
+.gg{
+    display: inline-block;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    background-color: #222222;
+    border: 1px solid none;
+    outline: none;
+    resize: none;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+button{
+    padding: 25px 70px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(90deg, #70FFCB, #65DAFF);
+    border: none;
+    color: white;
+    font-size: 15px;
+}

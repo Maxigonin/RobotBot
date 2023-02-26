@@ -1,0 +1,48 @@
+@media(max-width:600px){
+    .nav-item{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        margin: 8px;
+    }
+    .menu{
+        height: 110px;
+    }
+    .navigetion{
+        float: none;
+    }
+    .header-title{
+        font-size: 30px;
+        width: fit-content;
+    }
+    .header-btn{
+        display: block;
+        margin: auto;
+        margin-top: 300px;
+        text-align: center;
+    }
+    .header{
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .about-card{
+        display: block;
+        margin: auto;
+        font-size: 20px;
+    }
+    .game-img{
+        display: block;
+        width: 100%
+    }
+    .game-content{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .section-text{
+        font-size: 17px;
+    }
+}
